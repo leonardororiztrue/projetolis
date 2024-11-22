@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fredericka+the+Great&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Qwitcher+Grypen:wght@400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fredericka+the+Great&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Qwitcher+Grypen:wght@400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fredericka+the+Great&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Qwitcher+Grypen:wght@400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --corfundo: #FAEFFA;
+    --corcabecalho: #FFFFFF;
+    --cormenu: #3E143E;
+    --corcorpo: #9B319B;
+    --corrodape: #3E143E;
+
+    --cfontetitulo: #3E1434;
+    --cfontemenu: #FFFFFF;
+    --cfontehover: #000000;
+    --cfontecorpo: #FFFFFF;
+    --cfonterodape: #FFFFFF;
+
+    --fontetitulo: "dancing script";
+    --fontemenu: "outfit";
+    --fontecorpo: "dancing script";
+    --fonterodape: "outfit";
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+   background-color: var(--corfundo);
+}
+
+header {
+      font-family: var(--fontetitulo);
+      color: var(--cfontetitulo);
+      background-color: var(--corcabecalho);
+      border: 2px solid #000000;
+      border-radius: 20px 0px 20px 0px;
+      padding: 10px;
+      padding-bottom: 30px;
+      text-align: center;
+      font-size: 300%;
+      text-shadow: 10px 10px 10px black;
+      margin: 40px 50px 30px 50px;
+      box-shadow: 10px 10px 10px black;
+}
+
+nav {
+    font-family: var(--fontemenu);
+    font-size: 20px;
+    color: var(--cfontemenu);
+    text-align: center;
+    height: 30px;
+    background-color: var(--cormenu);
+    border: 2px solid #000000;
+    margin: 5px 50px 10px 50px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: var(--cfontemenu);
+    margin-right: 40px;
+}
+
+nav > a:hover {
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    color: var(--cormenu);
+    border-radius: 50%;
+    transition-duration: .3s;
+}
+
+main {
+    font-family: var(--fontecorpo);
+    background-image: linear-gradient(to left, #9c869c 30%, #290229);
+    border: 2px solid #000000;
+    border-radius: 20px 0px 20px 0px;
+    font-size: 180%;
+    color: var(--cfontecorpo);
+    text-align: center;
+    margin: 20px 50px 10px 50px;
+    padding: 4px;
+    box-shadow: 10px 10px 10px black;
+}
+
+main h2 {
+    font-size: 3em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px 0px black;
+}
+
+main img {
+    filter: drop-shadow(1px 1px 20px white);
+    background-color: #970d97;
+    border: 2px solid #000000;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: 30px 30px 30px black;
+    margin: auto;
+    display: block;
+}
+
+main > p#introducing {
+    font-size: 1.2em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px 0px black;
+}
+
+footer {
+    font-family: var(--fonterodape);
+    background-color: #3E143E;
+    border: 2px solid #000000;
+    font-size: 90%;
+    color: var(--cfonterodape);
+    text-align: center;
+    padding: 10px;
+    margin: 30px 50px 50px 50px;   
+}
