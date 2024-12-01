@@ -64,7 +64,7 @@ nav {
 nav > a {
     text-decoration: none;
     color: var(--cfontemenu);
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 nav > a:hover {
@@ -102,8 +102,7 @@ main img {
     filter: drop-shadow(1px 1px 20px white);
     background-color: #970d97;
     border: 2px solid #000000;
-    height: 350px;
-    width: 350px;
+    width: 50%;
     border-radius: 50%;
     box-shadow: 30px 30px 30px black;
     margin: auto;
