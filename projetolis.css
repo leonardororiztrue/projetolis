@@ -50,7 +50,7 @@ header {
 
 nav {
     font-family: var(--fontemenu);
-    font-size: 20px;
+    font-size: 1.5vw;
     color: var(--cfontemenu);
     text-align: center;
     height: 30px;
